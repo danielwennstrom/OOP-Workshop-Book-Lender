@@ -21,7 +21,7 @@ public class Person {
         this.landedBooks = new ArrayList<>();
     }
 
-    public int getNextId() {
+    private static int getNextId() {
         return ++sequencer;
     }
 
